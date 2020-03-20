@@ -5,8 +5,9 @@ package com.wzq.mybatisdemo.entity;
 
 /**
  *
- * Mybatis 需要加上这些注解才可以使用，不然启动都会报错；
- *
+ * @author 王志强
+ * @version 0.0.1
+ * @date 2020-03-17
  */
 public class User {
 

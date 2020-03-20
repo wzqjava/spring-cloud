@@ -10,13 +10,9 @@ import java.util.List;
 
 /**
  * 用户 mybatis 映射文件。
- *
- * @author hmilyylimh
- *
+ * @author 王志强
  * @version 0.0.1
- *
- * @date 2017-10-19
- *
+ * @date 2020-03-17
  */
 @Mapper
 public interface IUserMapper {

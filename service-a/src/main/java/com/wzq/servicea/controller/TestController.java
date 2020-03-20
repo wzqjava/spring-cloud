@@ -3,6 +3,7 @@ package com.wzq.servicea.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ResourceLoader;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -53,5 +54,11 @@ public class TestController {
 
         return "读取失败";
     }
+
+    @GetMapping("/getTest")
+    public String getTest() {
+        return "getTest";
+    }
+
 
 }

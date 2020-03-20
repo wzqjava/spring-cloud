@@ -1,16 +1,10 @@
 package com.wzq.mybatisdemo.mapper.user;
 
-import org.apache.ibatis.annotations.Mapper;
 
 /**
- *
- *
- * @author hmilyylimh
- *
+ * @author 王志强
  * @version 0.0.1
- *
- * @date 2017-10-19
- *
+ * @date 2020-03-17
  */
 public class UserMapper {
 }

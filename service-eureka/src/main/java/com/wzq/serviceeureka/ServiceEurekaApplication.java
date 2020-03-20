@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * https://www.jianshu.com/p/a0365a635975
  */
 @SpringBootApplication
-@EnableEurekaServer
+@EnableEurekaServer // 注册中心
 public class ServiceEurekaApplication {
 
     public static void main(String[] args) {
